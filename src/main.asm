@@ -8,4 +8,4 @@ main:
     jmp .halt
 
 times 510-($-$$) db 0
-dw 0SS55h 
+dw 0AA55h 
